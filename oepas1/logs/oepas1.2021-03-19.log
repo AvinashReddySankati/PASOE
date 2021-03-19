@@ -1,0 +1,263 @@
+2021-03-19T18:03:19.855+05:30 WARN  [Catalina-utility-1] - c.p.a.s.security.OEMetadataSource - restOEMetadataSource: Resolving intercept-url source file using a CATALINA_BASE/webapps file path 
+2021-03-19T18:03:20.062+05:30 WARN  [Catalina-utility-1] - c.p.a.s.security.OEMetadataSource - webOEMetadataSource: Resolving intercept-url source file using a CATALINA_BASE/webapps file path 
+2021-03-19T18:03:20.070+05:30 WARN  [Catalina-utility-1] - c.p.a.s.security.OEMetadataSource - apsvOEMetadataSource: Resolving intercept-url source file using a CATALINA_BASE/webapps file path 
+2021-03-19T18:03:20.077+05:30 WARN  [Catalina-utility-1] - c.p.a.s.security.OEMetadataSource - soapOEMetadataSource: Resolving intercept-url source file using a CATALINA_BASE/webapps file path 
+2021-03-19T18:03:20.085+05:30 WARN  [Catalina-utility-1] - c.p.a.s.security.OEMetadataSource - defaultOEMetadataSource: Resolving intercept-url source file using a CATALINA_BASE/webapps file path 
+2021-03-19T18:03:25.190+05:30 WARN  [Catalina-utility-1] - c.p.appserv.adapters.rest.Management - Property file C:\OpenEdge\WRK\oepas1\webapps\ROOT/WEB-INF/adapters/rest/_oepingService/runtime.props not found - Using default properties 
+2021-03-19T18:03:25.276+05:30 WARN  [Catalina-utility-1] - com.progress.caf.logging.CafLogging - Unable to create InputStream for resource "caflogging.properties". 
+2021-03-19T18:03:29.597+05:30 WARN  [Catalina-utility-1] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:03:29.597+05:30 WARN  [Catalina-utility-1] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:03:32.132+05:30 WARN  [Catalina-utility-1] - c.p.appserv.IdleResourceWatchdog - Idle resource watchdog disabled 
+2021-03-19T18:03:45.188+05:30 WARN  [gAjNbnE9RcKc_NxeEW07SA-agent-watchdog] - c.p.appserv.PoolMgt.AgentWatchdog - AgentWatchdog(gAjNbnE9RcKc_NxeEW07SA) : agent vcMpQ_2dTq66tJvDQXUiYg PID= 10312 has terminated.  
+2021-03-19T18:15:47.031+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:15:47.137+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:15:52.454+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:15:52.455+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:15:56.470+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:15:56.471+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:16:00.530+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:16:00.531+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:16:04.712+05:30 ERROR [PropertyFileMonitor] - com.progress.appserv.Prop - Exception reading dynamic runtime properties 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "AppServer.SessMgr.oepas1". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.broker.util.AppservProperties.updateProperties(AppservProperties.java:753)
+	at com.progress.appserv.broker.util.AppservProperties.watchEvent(AppservProperties.java:711)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:16:04.714+05:30 ERROR [PropertyFileMonitor] - com.progress.appserv.Mgmt - Exception retrieving AppServer status 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "AppServer". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.oeabl.ABLService.watchEvent(ABLService.java:485)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:16:04.877+05:30 ERROR [PropertyFileMonitor] - c.p.appserv.adapters.apsv.Properties - APSV : an error occurred while reading dynamic runtime properties = com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "oepas1.ROOT.APSV". (PRPMsg007). (18335) 
+2021-03-19T18:16:04.878+05:30 ERROR [PropertyFileMonitor] - c.p.appserv.adapters.web.Properties - Exception reading dynamic runtime properties 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "oepas1.ROOT.WEB". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.adapters.web.OEWebProps.updateProperties(OEWebProps.java:270)
+	at com.progress.appserv.adapters.web.OEWebProps.watchEvent(OEWebProps.java:257)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:16:05.888+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:16:05.889+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:16:08.905+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:16:08.905+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:16:11.938+05:30 ERROR [PropertyFileMonitor] - com.progress.appserv.Prop - Exception reading dynamic runtime properties 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "AppServer.SessMgr.oepas1". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.broker.util.AppservProperties.updateProperties(AppservProperties.java:753)
+	at com.progress.appserv.broker.util.AppservProperties.watchEvent(AppservProperties.java:711)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:16:11.939+05:30 ERROR [PropertyFileMonitor] - com.progress.appserv.Mgmt - Exception retrieving AppServer status 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "AppServer". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.oeabl.ABLService.watchEvent(ABLService.java:485)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:16:11.940+05:30 ERROR [PropertyFileMonitor] - c.p.appserv.adapters.apsv.Properties - APSV : an error occurred while reading dynamic runtime properties = com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "oepas1.ROOT.APSV". (PRPMsg007). (18335) 
+2021-03-19T18:16:11.942+05:30 ERROR [PropertyFileMonitor] - c.p.appserv.adapters.web.Properties - Exception reading dynamic runtime properties 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "oepas1.ROOT.WEB". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.adapters.web.OEWebProps.updateProperties(OEWebProps.java:270)
+	at com.progress.appserv.adapters.web.OEWebProps.watchEvent(OEWebProps.java:257)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:16:12.949+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:16:12.950+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:16:15.957+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:16:15.958+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:16:18.969+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:16:18.969+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:16:22.978+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:16:22.979+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:16:26.991+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:16:26.991+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:16:30.002+05:30 ERROR [PropertyFileMonitor] - com.progress.appserv.Prop - Exception reading dynamic runtime properties 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "AppServer.SessMgr.oepas1". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.broker.util.AppservProperties.updateProperties(AppservProperties.java:753)
+	at com.progress.appserv.broker.util.AppservProperties.watchEvent(AppservProperties.java:711)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:16:30.003+05:30 ERROR [PropertyFileMonitor] - com.progress.appserv.Mgmt - Exception retrieving AppServer status 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "AppServer". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.oeabl.ABLService.watchEvent(ABLService.java:485)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:16:30.004+05:30 ERROR [PropertyFileMonitor] - c.p.appserv.adapters.apsv.Properties - APSV : an error occurred while reading dynamic runtime properties = com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "oepas1.ROOT.APSV". (PRPMsg007). (18335) 
+2021-03-19T18:16:30.005+05:30 ERROR [PropertyFileMonitor] - c.p.appserv.adapters.web.Properties - Exception reading dynamic runtime properties 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "oepas1.ROOT.WEB". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.adapters.web.OEWebProps.updateProperties(OEWebProps.java:270)
+	at com.progress.appserv.adapters.web.OEWebProps.watchEvent(OEWebProps.java:257)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:16:31.010+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:16:31.011+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:16:34.025+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:16:34.026+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:16:37.037+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:16:37.038+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:16:40.043+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:16:40.044+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:16:43.050+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:16:43.051+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:16:46.078+05:30 ERROR [PropertyFileMonitor] - com.progress.appserv.Prop - Exception reading dynamic runtime properties 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "AppServer.SessMgr.oepas1". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.broker.util.AppservProperties.updateProperties(AppservProperties.java:753)
+	at com.progress.appserv.broker.util.AppservProperties.watchEvent(AppservProperties.java:711)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:16:46.089+05:30 ERROR [PropertyFileMonitor] - com.progress.appserv.Mgmt - Exception retrieving AppServer status 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "AppServer". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.oeabl.ABLService.watchEvent(ABLService.java:485)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:16:46.090+05:30 ERROR [PropertyFileMonitor] - c.p.appserv.adapters.apsv.Properties - APSV : an error occurred while reading dynamic runtime properties = com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "oepas1.ROOT.APSV". (PRPMsg007). (18335) 
+2021-03-19T18:16:46.091+05:30 ERROR [PropertyFileMonitor] - c.p.appserv.adapters.web.Properties - Exception reading dynamic runtime properties 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "oepas1.ROOT.WEB". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.adapters.web.OEWebProps.updateProperties(OEWebProps.java:270)
+	at com.progress.appserv.adapters.web.OEWebProps.watchEvent(OEWebProps.java:257)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:16:47.094+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:16:47.094+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:16:50.100+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:16:50.100+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:16:53.104+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:16:53.105+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:16:56.134+05:30 ERROR [PropertyFileMonitor] - com.progress.appserv.Prop - Exception reading dynamic runtime properties 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "AppServer.SessMgr.oepas1". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.broker.util.AppservProperties.updateProperties(AppservProperties.java:753)
+	at com.progress.appserv.broker.util.AppservProperties.watchEvent(AppservProperties.java:711)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:16:56.135+05:30 ERROR [PropertyFileMonitor] - com.progress.appserv.Mgmt - Exception retrieving AppServer status 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "AppServer". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.oeabl.ABLService.watchEvent(ABLService.java:485)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:16:56.136+05:30 ERROR [PropertyFileMonitor] - c.p.appserv.adapters.apsv.Properties - APSV : an error occurred while reading dynamic runtime properties = com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "oepas1.ROOT.APSV". (PRPMsg007). (18335) 
+2021-03-19T18:16:56.138+05:30 ERROR [PropertyFileMonitor] - c.p.appserv.adapters.web.Properties - Exception reading dynamic runtime properties 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "oepas1.ROOT.WEB". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.adapters.web.OEWebProps.updateProperties(OEWebProps.java:270)
+	at com.progress.appserv.adapters.web.OEWebProps.watchEvent(OEWebProps.java:257)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:16:57.141+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:16:57.144+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:17:00.152+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:17:00.164+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:17:03.169+05:30 ERROR [PropertyFileMonitor] - com.progress.appserv.Prop - Exception reading dynamic runtime properties 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "AppServer.SessMgr.oepas1". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.broker.util.AppservProperties.updateProperties(AppservProperties.java:753)
+	at com.progress.appserv.broker.util.AppservProperties.watchEvent(AppservProperties.java:711)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:17:03.170+05:30 ERROR [PropertyFileMonitor] - com.progress.appserv.Mgmt - Exception retrieving AppServer status 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "AppServer". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.oeabl.ABLService.watchEvent(ABLService.java:485)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:17:03.171+05:30 ERROR [PropertyFileMonitor] - c.p.appserv.adapters.apsv.Properties - APSV : an error occurred while reading dynamic runtime properties = com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "oepas1.ROOT.APSV". (PRPMsg007). (18335) 
+2021-03-19T18:17:03.171+05:30 ERROR [PropertyFileMonitor] - c.p.appserv.adapters.web.Properties - Exception reading dynamic runtime properties 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "oepas1.ROOT.WEB". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.adapters.web.OEWebProps.updateProperties(OEWebProps.java:270)
+	at com.progress.appserv.adapters.web.OEWebProps.watchEvent(OEWebProps.java:257)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:17:04.174+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:17:04.174+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:17:10.197+05:30 ERROR [PropertyFileMonitor] - com.progress.appserv.Prop - Exception reading dynamic runtime properties 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "AppServer.SessMgr.oepas1". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.broker.util.AppservProperties.updateProperties(AppservProperties.java:753)
+	at com.progress.appserv.broker.util.AppservProperties.watchEvent(AppservProperties.java:711)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:17:10.198+05:30 ERROR [PropertyFileMonitor] - com.progress.appserv.Mgmt - Exception retrieving AppServer status 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "AppServer". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.oeabl.ABLService.watchEvent(ABLService.java:485)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:17:10.199+05:30 ERROR [PropertyFileMonitor] - c.p.appserv.adapters.apsv.Properties - APSV : an error occurred while reading dynamic runtime properties = com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "oepas1.ROOT.APSV". (PRPMsg007). (18335) 
+2021-03-19T18:17:10.202+05:30 ERROR [PropertyFileMonitor] - c.p.appserv.adapters.web.Properties - Exception reading dynamic runtime properties 
+com.progress.appserv.services.properties.ubimpl.ubPropertyManager$NoSuchGroupException: No such group as "oepas1.ROOT.WEB". (PRPMsg007)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.groups(ubPropertyManager.java:1109)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.checkValidSection(ubPropertyManager.java:406)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.getProperties(ubPropertyManager.java:197)
+	at com.progress.appserv.adapters.web.OEWebProps.updateProperties(OEWebProps.java:270)
+	at com.progress.appserv.adapters.web.OEWebProps.watchEvent(OEWebProps.java:257)
+	at com.progress.appserv.services.properties.ubimpl.ubPropertyManager.watchEvent(ubPropertyManager.java:369)
+	at com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:123)
+2021-03-19T18:17:11.205+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:17:11.221+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - oepas1 : dynamic agent properties updated = 0. 
+2021-03-19T18:17:11.222+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:17:14.229+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:17:14.229+05:30 WARN  [PropertyFileMonitor] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:17:26.415+05:30 WARN  [thd-8] - c.p.a.s.security.OEMetadataSource - restOEMetadataSource: Resolving intercept-url source file using a CATALINA_BASE/webapps file path 
+2021-03-19T18:17:26.433+05:30 WARN  [thd-8] - c.p.a.s.security.OEMetadataSource - webOEMetadataSource: Resolving intercept-url source file using a CATALINA_BASE/webapps file path 
+2021-03-19T18:17:26.446+05:30 WARN  [thd-8] - c.p.a.s.security.OEMetadataSource - apsvOEMetadataSource: Resolving intercept-url source file using a CATALINA_BASE/webapps file path 
+2021-03-19T18:17:26.470+05:30 WARN  [thd-8] - c.p.a.s.security.OEMetadataSource - soapOEMetadataSource: Resolving intercept-url source file using a CATALINA_BASE/webapps file path 
+2021-03-19T18:17:26.559+05:30 WARN  [thd-8] - c.p.a.s.security.OEMetadataSource - defaultOEMetadataSource: Resolving intercept-url source file using a CATALINA_BASE/webapps file path 
+2021-03-19T18:17:28.503+05:30 WARN  [thd-8] - c.p.appserv.adapters.rest.Management - Property file C:\OpenEdge\WRK\oepas1\webapps\Test/WEB-INF/adapters/rest/TestService/runtime.props not found - Using default properties 
+2021-03-19T18:17:28.555+05:30 WARN  [thd-8] - com.progress.caf.logging.CafLogging - Unable to create InputStream for resource "caflogging.properties". 
+2021-03-19T18:17:32.421+05:30 WARN  [thd-8] - c.p.appserv.adapters.rest.Management - Property file C:\OpenEdge\WRK\oepas1\webapps\Test/WEB-INF/adapters/rest/_oepingService/runtime.props not found - Using default properties 
+2021-03-19T18:17:32.426+05:30 WARN  [thd-8] - com.progress.caf.logging.CafLogging - Unable to create InputStream for resource "caflogging.properties". 
+2021-03-19T18:17:34.090+05:30 WARN  [thd-8] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-03-19T18:17:34.090+05:30 WARN  [thd-8] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-03-19T18:17:36.503+05:30 WARN  [thd-8] - o.a.c.c.s.CamelHttpTransportServlet - Duplicate ServletName detected: CamelSOAPServlet. Existing: CamelHttpTransportServlet[name=CamelSOAPServlet] This: CamelHttpTransportServlet[name=CamelSOAPServlet]. Its advised to use unique ServletName per Camel application. 
+2021-03-19T18:18:41.714+05:30 WARN  [thd-7] Test:r:00000001 c.p.c.c.j.i.CafJAXRSInInterceptor - No root resource matching request path / has been found, Relative Path: {1}. Please enable FINE/TRACE log level for more details. 
+2021-03-19T18:23:39.003+05:30 WARN  [gAjNbnE9RcKc_NxeEW07SA-agent-watchdog] - c.p.appserv.PoolMgt.AgentWatchdog - AgentWatchdog(gAjNbnE9RcKc_NxeEW07SA) : agent NhLQur1jSdCCm1zhRaoLYA PID= 8088 has terminated.  

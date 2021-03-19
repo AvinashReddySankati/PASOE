@@ -1,0 +1,14 @@
+2021-03-19T18:02:58.915+05:30 INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - No Spring WebApplicationInitializer types detected on classpath
+2021-03-19T18:02:59.251+05:30 INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - No Spring WebApplicationInitializer types detected on classpath
+2021-03-19T18:02:59.367+05:30 INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Initializing Spring root WebApplicationContext
+2021-03-19T18:03:09.669+05:30 INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Initializing Spring DispatcherServlet 'mvc-dispatch'
+2021-03-19T18:03:14.085+05:30 INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - No Spring WebApplicationInitializer types detected on classpath
+2021-03-19T18:03:14.602+05:30 INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Initializing Spring root WebApplicationContext
+2021-03-19T18:03:32.144+05:30 INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Initializing Spring DispatcherServlet 'mvc-dispatch'
+2021-03-19T18:06:30.874+05:30 INFO  [thd-4] o.a.catalina.core.ApplicationContext.log - Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+2021-03-19T18:06:30.877+05:30 INFO  [thd-4] o.a.catalina.core.ApplicationContext.log - Manager: init: Global resources are available
+2021-03-19T18:06:30.883+05:30 INFO  [thd-4] o.a.catalina.core.ApplicationContext.log - Manager: list: Listing contexts for virtual host 'localhost'
+2021-03-19T18:14:22.842+05:30 INFO  [thd-9] o.a.catalina.core.ApplicationContext.log - Manager: list: Listing contexts for virtual host 'localhost'
+2021-03-19T18:17:20.277+05:30 INFO  [thd-8] o.a.catalina.core.ApplicationContext.log - No Spring WebApplicationInitializer types detected on classpath
+2021-03-19T18:17:21.519+05:30 INFO  [thd-8] o.a.catalina.core.ApplicationContext.log - Initializing Spring root WebApplicationContext
+2021-03-19T18:17:34.096+05:30 INFO  [thd-8] o.a.catalina.core.ApplicationContext.log - Initializing Spring DispatcherServlet 'mvc-dispatch'

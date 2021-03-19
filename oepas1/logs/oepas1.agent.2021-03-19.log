@@ -1,0 +1,78 @@
+2021-03-19T18:03:30.462+2300 010312 002752 1 AS-Aux-0 mtapsv:-:? MSAS Agent Starting Up -- Progress OpenEdge Release 12.2  build 1170.
+2021-03-19T18:03:30.462+2300 010312 002752 1 AS-Aux-0 mtapsv:-:? -- Logging level set to = 2
+2021-03-19T18:03:30.462+2300 010312 002752 1 AS-Aux-0 mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-03-19T18:03:30.462+2300 010312 002752 2 AS-Aux-0 mtapsv:-:? AS Starting MSAS Session for oepas1.
+2021-03-19T18:03:30.515+2300 010312 002752 2 AS-Aux-0 mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-03-19T18:03:30.570+2300 010312 002752 1 AS-Listener mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-03-19T18:03:30.571+2300 010312 002752 2 AS-Listener mtapsv:-:? AS Starting MSAS Session for oepas1.
+2021-03-19T18:03:30.571+2300 010312 002752 2 AS-Listener mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-03-19T18:03:30.583+2300 010312 002752 1 AS-Listener mtapsv:-:? MSAS Spawning New Worker Thread. Number: 4
+2021-03-19T18:03:30.590+2300 010312 002676 1 AS-ResourceMgr mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-03-19T18:03:30.590+2300 010312 002676 2 AS-ResourceMgr mtapsv:-:? AS Starting MSAS Session for oepas1.
+2021-03-19T18:03:30.590+2300 010312 002676 2 AS-ResourceMgr mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-03-19T18:03:31.834+2300 010312 006612 1 AS-Admin mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-03-19T18:03:31.834+2300 010312 006612 2 AS-Admin mtapsv:-:? AS Starting MSAS Session for oepas1.
+2021-03-19T18:03:31.834+2300 010312 006612 2 AS-Admin mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-03-19T18:03:31.917+2300 010312 002176 1 AS-4 mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-03-19T18:03:31.917+2300 010312 002176 2 AS-4 mtapsv:-:? AS Starting MSAS Session for oepas1.
+2021-03-19T18:03:31.917+2300 010312 002176 2 AS-4 mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-03-19T18:03:31.985+2300 010312 002176 1 AS-4 ?:?:? MSAS Successfully ran session startup procedure.
+2021-03-19T18:03:31.986+2300 010312 002676 1 AS-ResourceMgr mtapsv:-:? MSAS Spawning New Worker Thread. Number: 5
+2021-03-19T18:03:31.989+2300 010312 002176 1 AS-Aux-5 mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-03-19T18:03:31.989+2300 010312 002176 2 AS-Aux-5 mtapsv:-:? AS Starting MSAS Session for oepas1.
+2021-03-19T18:03:31.989+2300 010312 002176 2 AS-Aux-5 mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-03-19T18:03:31.996+2300 010312 002176 1 AS-7 mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-03-19T18:03:31.996+2300 010312 002176 2 AS-7 mtapsv:-:? AS Starting MSAS Session for oepas1.
+2021-03-19T18:03:31.996+2300 010312 002176 2 AS-7 mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-03-19T18:03:31.997+2300 010312 007256 1 AS-Aux-6 mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-03-19T18:03:31.997+2300 010312 007256 2 AS-Aux-6 mtapsv:-:? AS Starting MSAS Session for oepas1.
+2021-03-19T18:03:31.998+2300 010312 007256 2 AS-Aux-6 mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-03-19T18:03:32.002+2300 010312 007256 1 AS-Aux-0 mtapsv:-:? MSAS Worker Thread exiting. Number: 5, Status: 0
+2021-03-19T18:03:32.065+2300 010312 002176 1 AS-7 ?:?:? MSAS Successfully ran session startup procedure.
+2021-03-19T18:03:32.082+2300 010312 006612 2 AS-Admin mtapsv:-:? AS Application Server connected with connection id: . (8358)
+2021-03-19T18:03:44.668+2300 010312 006612 1 AS-Admin mtapsv:-:? -- (Procedure: 'setArchiveAgentStats OpenEdge.ApplicationServer.AgentInfo' Line:46) The word-rule file specified by the -ttwrdrul parameter is invalid. (9258)
+2021-03-19T18:03:44.971+2300 010312 006612 1 AS-Admin mtapsv:-:? -- (Procedure: 'setArchiveAgentStats OpenEdge.ApplicationServer.AgentInfo' Line:46) Unable to open word-break table file 253. (2736)
+2021-03-19T18:03:45.171+2300 010312 002676 1 AS-ResourceMgr mtapsv:-:? MSAS Admin Thread is gone. Initiating Shutdown.
+2021-03-19T18:03:45.171+2300 010312 002752 1 AS-Listener mtapsv:-:? MSAS Agent Shutting Down. Status: -2007
+2021-03-19T18:03:45.180+2300 010312 002176 1 AS-Aux-0 mtapsv:-:? MSAS Worker Thread exiting. Number: 4, Status: 0
+2021-03-19T18:03:45.207+2300 010312 002752 1 AS-Listener mtapsv:-:? MSAS Agent Shutdown Complete.
+2021-03-19T18:18:52.107+2300 008088 005016 1 AS-Aux-0 mtapsv:-:? MSAS Agent Starting Up -- Progress OpenEdge Release 12.2  build 1170.
+2021-03-19T18:18:52.123+2300 008088 005016 1 AS-Aux-0 mtapsv:-:? -- Logging level set to = 2
+2021-03-19T18:18:52.123+2300 008088 005016 1 AS-Aux-0 mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-03-19T18:18:52.123+2300 008088 005016 2 AS-Aux-0 mtapsv:-:? AS Starting MSAS Session for oepas1.
+2021-03-19T18:18:52.145+2300 008088 005016 2 AS-Aux-0 mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-03-19T18:18:52.173+2300 008088 005016 1 AS-Listener mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-03-19T18:18:52.174+2300 008088 005016 2 AS-Listener mtapsv:-:? AS Starting MSAS Session for oepas1.
+2021-03-19T18:18:52.174+2300 008088 005016 2 AS-Listener mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-03-19T18:18:52.188+2300 008088 005016 1 AS-Listener mtapsv:-:? MSAS Spawning New Worker Thread. Number: 4
+2021-03-19T18:18:52.231+2300 008088 002252 1 AS-ResourceMgr mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-03-19T18:18:52.231+2300 008088 002252 2 AS-ResourceMgr mtapsv:-:? AS Starting MSAS Session for oepas1.
+2021-03-19T18:18:52.231+2300 008088 002252 2 AS-ResourceMgr mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-03-19T18:18:52.420+2300 008088 007564 1 AS-Admin mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-03-19T18:18:52.421+2300 008088 007564 2 AS-Admin mtapsv:-:? AS Starting MSAS Session for oepas1.
+2021-03-19T18:18:52.421+2300 008088 007564 2 AS-Admin mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-03-19T18:18:52.629+2300 008088 008084 1 AS-4 mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-03-19T18:18:52.629+2300 008088 008084 2 AS-4 mtapsv:-:? AS Starting MSAS Session for oepas1.
+2021-03-19T18:18:52.629+2300 008088 008084 2 AS-4 mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-03-19T18:18:52.741+2300 008088 008084 1 AS-4 ?:?:? MSAS Successfully ran session startup procedure.
+2021-03-19T18:18:52.749+2300 008088 002252 1 AS-ResourceMgr mtapsv:-:? MSAS Spawning New Worker Thread. Number: 5
+2021-03-19T18:18:52.753+2300 008088 007564 2 AS-Admin mtapsv:-:? AS Application Server connected with connection id: . (8358)
+2021-03-19T18:18:52.760+2300 008088 008084 1 AS-Aux-5 mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-03-19T18:18:52.760+2300 008088 008084 2 AS-Aux-5 mtapsv:-:? AS Starting MSAS Session for oepas1.
+2021-03-19T18:18:52.760+2300 008088 008084 2 AS-Aux-5 mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-03-19T18:18:52.773+2300 008088 008084 1 AS-Aux-6 mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-03-19T18:18:52.774+2300 008088 008084 2 AS-Aux-6 mtapsv:-:? AS Starting MSAS Session for oepas1.
+2021-03-19T18:18:52.774+2300 008088 008084 2 AS-Aux-6 mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-03-19T18:18:52.812+2300 008088 003008 1 AS-7 mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-03-19T18:18:52.812+2300 008088 003008 2 AS-7 mtapsv:-:? AS Starting MSAS Session for oepas1.
+2021-03-19T18:18:52.812+2300 008088 003008 2 AS-7 mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-03-19T18:18:52.818+2300 008088 008084 1 AS-Aux-0 mtapsv:-:? MSAS Worker Thread exiting. Number: 4, Status: 0
+2021-03-19T18:18:52.915+2300 008088 003008 1 AS-7 ?:?:? MSAS Successfully ran session startup procedure.
+2021-03-19T18:18:52.973+2300 008088 002252 1 AS-ResourceMgr mtapsv:-:? MSAS Spawning New Worker Thread. Number: 6
+2021-03-19T18:23:38.769+2300 008088 007564 1 AS-Admin mtapsv:-:? -- (Procedure: 'setArchiveAgentStats OpenEdge.ApplicationServer.AgentInfo' Line:46) The word-rule file specified by the -ttwrdrul parameter is invalid. (9258)
+2021-03-19T18:23:38.775+2300 008088 007564 1 AS-Admin mtapsv:-:? -- (Procedure: 'setArchiveAgentStats OpenEdge.ApplicationServer.AgentInfo' Line:46) Unable to open word-break table file 253. (2736)
+2021-03-19T18:23:38.975+2300 008088 002252 1 AS-ResourceMgr mtapsv:-:? MSAS Admin Thread is gone. Initiating Shutdown.
+2021-03-19T18:23:38.976+2300 008088 005016 1 AS-Listener mtapsv:-:? MSAS Agent Shutting Down. Status: -2007
+2021-03-19T18:23:38.985+2300 008088 003008 1 AS-Aux-0 mtapsv:-:? MSAS Worker Thread exiting. Number: 5, Status: 0
+2021-03-19T18:23:38.996+2300 008088 005460 1 AS-Aux-0 mtapsv:-:? MSAS Worker Thread exiting. Number: 6, Status: 0
+2021-03-19T18:23:39.028+2300 008088 005016 1 AS-Listener mtapsv:-:? MSAS Agent Shutdown Complete.

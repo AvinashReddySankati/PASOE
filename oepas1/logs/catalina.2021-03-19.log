@@ -1,0 +1,22 @@
+2021-03-19T18:02:51.736+05:30 INFO  [main] org.apache.coyote.AbstractProtocol.init - Initializing ProtocolHandler ["http-nio-8810"]
+2021-03-19T18:02:51.842+05:30 INFO  [main] org.apache.coyote.AbstractProtocol.init - Initializing ProtocolHandler ["https-jsse-nio-8811"]
+2021-03-19T18:02:51.848+05:30 INFO  [main] org.apache.catalina.startup.Catalina.load - Server initialization in [4,983] milliseconds
+2021-03-19T18:02:51.855+05:30 INFO  [main] c.p.a.s.l.OeLifecycleListener.runStartupScripts - Running startup scripts
+2021-03-19T18:02:52.095+05:30 INFO  [main] o.a.catalina.core.StandardService.startInternal - Starting service [Catalina]
+2021-03-19T18:02:52.096+05:30 INFO  [main] o.a.catalina.core.StandardEngine.startInternal - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2021-03-19T18:02:53.544+05:30 INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deploying web application archive [C:\OpenEdge\WRK\oepas1\webapps\manager.war]
+2021-03-19T18:02:55.618+05:30 WARN  [Catalina-utility-1] o.a.c.util.SessionIdGeneratorBase.createSecureRandom - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [466] milliseconds.
+2021-03-19T18:02:55.700+05:30 INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deployment of web application archive [C:\OpenEdge\WRK\oepas1\webapps\manager.war] has finished in [2,156] ms
+2021-03-19T18:02:55.715+05:30 INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deploying web application archive [C:\OpenEdge\WRK\oepas1\webapps\oedbg.war]
+2021-03-19T18:02:58.929+05:30 INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deployment of web application archive [C:\OpenEdge\WRK\oepas1\webapps\oedbg.war] has finished in [3,213] ms
+2021-03-19T18:02:58.943+05:30 INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deploying web application archive [C:\OpenEdge\WRK\oepas1\webapps\oemanager.war]
+2021-03-19T18:03:13.606+05:30 INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deployment of web application archive [C:\OpenEdge\WRK\oepas1\webapps\oemanager.war] has finished in [14,663] ms
+2021-03-19T18:03:13.609+05:30 INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployDirectory - Deploying web application directory [C:\OpenEdge\WRK\oepas1\webapps\ROOT]
+2021-03-19T18:03:33.812+05:30 INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployDirectory - Deployment of web application directory [C:\OpenEdge\WRK\oepas1\webapps\ROOT] has finished in [20,203] ms
+2021-03-19T18:03:33.835+05:30 INFO  [main] org.apache.coyote.AbstractProtocol.start - Starting ProtocolHandler ["http-nio-8810"]
+2021-03-19T18:03:33.879+05:30 INFO  [main] org.apache.coyote.AbstractProtocol.start - Starting ProtocolHandler ["https-jsse-nio-8811"]
+2021-03-19T18:03:34.562+05:30 INFO  [main] c.p.a.s.l.OeLifecycleListener.runStartedScripts - Running started scripts
+2021-03-19T18:03:34.564+05:30 INFO  [main] c.p.a.s.l.OeLifecycleListener.startHealthCollector - Health collector disabled
+2021-03-19T18:03:34.565+05:30 INFO  [main] org.apache.catalina.startup.Catalina.start - Server startup in [42,715] milliseconds
+2021-03-19T18:17:17.833+05:30 INFO  [thd-8] o.apache.catalina.startup.HostConfig.deployWAR - Deploying web application archive [C:\OpenEdge\WRK\oepas1\webapps\Test.war]
+2021-03-19T18:17:36.507+05:30 INFO  [thd-8] o.apache.catalina.startup.HostConfig.deployWAR - Deployment of web application archive [C:\OpenEdge\WRK\oepas1\webapps\Test.war] has finished in [18,674] ms

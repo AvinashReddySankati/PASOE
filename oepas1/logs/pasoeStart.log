@@ -1,0 +1,7 @@
+
+Using CATALINA_BASE:   "C:\OpenEdge\WRK\oepas1"
+Using CATALINA_HOME:   "C:\Progress\OpenEdge\servers\pasoe"
+Using CATALINA_TMPDIR: "C:\OpenEdge\WRK\oepas1\temp"
+Using JRE_HOME:        "C:/PROGRA~1/Java/JDK-11~1.10"
+Using CLASSPATH:       ";C:\Progress\OpenEdge\servers\pasoe\bin\bootstrap.jar;C:\Progress\OpenEdge\servers\pasoe\bin\tomcat-juli.jar;C:\Progress\OpenEdge\servers\pasoe\bin\tomcat-juli.jar"
+PAS started with process IDs: 4876

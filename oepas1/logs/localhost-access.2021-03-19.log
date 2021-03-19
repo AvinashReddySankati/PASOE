@@ -1,0 +1,8 @@
+127.0.0.1 - - [2021-03-19T18:06:30.887+05:30] "GET /manager/text/list HTTP/1.1" 200 - - 
+127.0.0.1 - - [2021-03-19T18:14:22.855+05:30] "GET /manager/text/list HTTP/1.1" 200 - - 
+127.0.0.1 - - [2021-03-19T18:17:16.518+05:30] "GET /manager/jmxproxy?invoke=Catalina%3Atype%3DDeployer,host=localhost&op=addServiced&ps=Test HTTP/1.1" 200 - - 
+127.0.0.1 - - [2021-03-19T18:17:36.509+05:30] "GET /manager/jmxproxy?invoke=Catalina%3Atype%3DDeployer,host=localhost&op=check&ps=Test HTTP/1.1" 200 - - 
+127.0.0.1 - - [2021-03-19T18:17:37.450+05:30] "GET /manager/jmxproxy?invoke=Catalina%3Atype%3DDeployer,host=localhost&op=removeServiced&ps=Test HTTP/1.1" 200 - - 
+172.18.105.49 - anonymousUser [2021-03-19T18:18:41.869+05:30] "GET /Test/rest/TestService HTTP/1.1" 404 0 Test:r:00000001 
+172.18.105.49 - anonymousUser [2021-03-19T18:18:54.441+05:30] "GET /Test/rest/TestService/msg HTTP/1.1" 200 53 Test:r:00000002 
+172.18.105.49 - anonymousUser [2021-03-19T18:18:55.505+05:30] "GET /favicon.ico HTTP/1.1" 200 370070 ROOT:f:00000001 

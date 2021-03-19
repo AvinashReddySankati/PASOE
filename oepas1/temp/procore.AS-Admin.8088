@@ -1,0 +1,9 @@
+
+03/19/21 18:23:38  [8088]
+Progress Recent Message(s):
+  
+
+  *** ABL Call Stack ***
+Last action: TY_ASGNODBFLD  (36)
+46: setArchiveAgentStats OpenEdge.ApplicationServer.AgentInfo (OpenEdge/ApplicationServer/AgentInfo.r)
+18: AgentInfo OpenEdge.ApplicationServer.AgentInfo (OpenEdge/ApplicationServer/AgentInfo.r)
